@@ -8,17 +8,29 @@
 
 int main() {
 
+    // Inseri o título do desafio - Iniciante:
     printf("Desafio de Cartas Super Trunfo - Países \n");
 
-    char[20] = Estado;
-    char[20] = Codigo da carta;
-    char[20] = Nome da cidade;
-    int = Populacao;
-    float = Area da cidade;
-    float = PIB;
-    int = Numero de pontos turisticos;
+    // Defini o tipo e o nome das variáveis:
+    char estado[20];
+    char codigo[20];
+    char nome[50];
+    int populacao;
+    float area;
+    float pib;
+    int pontosturisticos;
 
-    
+    // Defini o que sairá em cada printf e scanf:
+
+    printf("Escreva o nome do Estado: \n");
+    scanf("%c", estado);
+
+
+
+
+
+
+
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
